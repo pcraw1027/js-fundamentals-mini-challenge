@@ -153,7 +153,7 @@ You should not change any code inside the `myMap` function to get the following 
 Write a function `triple` to be used as a callback function with the `myMap` function, so that calling `myMap` with an array of numbers and your `triple` function will return a new array with each value from the original array tripled.
 
 ```js
-console.log(myMap([1,2,3,4,5], triple)) 
+console.log(myMap([1,2,3,4,5], triple(myMap))) 
 // => [3,6,9,12,15]
 
 console.log(myMap([2,4,6,8], triple))   
